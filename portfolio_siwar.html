@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        /* Basic styling for demonstration purposes */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer, section, nav {
+            display: block;
+            padding: 10px;
+            margin-bottom: 10px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            padding: 5px 10px;
+            border-radius: 5px;
+            background-color: #ddd;
+        }
+        nav ul li a:hover {
+            background-color: #bbb;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Home Section</h2>
+        
+    </section>
+
+    <section id="about">
+        <h2>About Section</h2>
+        <p>informations about me.</p>
+    </section>
+
+    <section id="work">
+        <h2>Work Section</h2>
+        <p>List of my work/projects:</p>
+        <ul>
+            <li>Project 1</li>
+            <li>Project 2</li>
+            <li>Project 3</li>
+        </ul>
+    </section>
+
+    <section id="resume">
+        <h2>Resume Section</h2>
+      
+        <table border="1">
+            <tr>
+                <th>Date</th>
+                <th>Position</th>
+                <th>Company</th>
+            </tr>
+            <tr>
+                <td>2019-2021</td>
+                <td>Web Developer</td>
+                <td>x Company</td>
+            </tr>
+            <tr>
+                <td>2017-2019</td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Section</h2>
+        <form >
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer>
+        <p> 2024 My Portfolio. All rights reserved</p>
+    </footer>
+</body>
+</html>
