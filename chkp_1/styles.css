@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+header, footer, section, nav {
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    text-align: center; /* Center text inside these elements */
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Center the nav items */
+}
+nav ul li {
+    margin: 0 10px; /* Add margin to both sides for spacing */
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #ddd;
+}
+nav ul li a:hover {
+    background-color: #bbb;
+}
+h1 {
+    color: red;
+}
+.table-container {
+    display: flex;
+    justify-content: center; /* Center the table container */
+}
+table {
+    border-collapse: collapse;
+    width: 80%; /* Adjust the width as needed */
+    margin: 20px 0; /* Margin for spacing */
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left; /* Adjust text alignment as needed */
+}
+th {
+    background-color: #f2f2f2;
+}
